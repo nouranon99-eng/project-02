@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.comparison {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    border: 10px solid black;
+}
+
+.content-box {
+    box-sizing: content-box;
+    background-color: lightblue;
+}
+
+.border-box {
+    box-sizing: border-box;
+    background-color: lightgreen;
+}

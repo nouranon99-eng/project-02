@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    z-index: 10;
+}
+
+.navbar a {
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 20;
+}

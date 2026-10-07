@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.swatch {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.named-color {
+    background-color: blue;
+    color: white;
+}
+
+.hex-color {
+    background-color: #FF5733;
+    color: white;
+}
+
+.rgb-color {
+    background-color: rgb(46, 204, 113);
+    color: white;
+}
+
+.rgba-color {
+    background-color: rgba(155, 89, 182, 0.5);
+}
+
+.comparison {
+    display: flex;
+    gap: 20px;
+}
+
+.opacity-box {
+    background-color: blue;
+    opacity: 0.5;
+    padding: 20px;
+}
+
+.rgba-box {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 20px;
+}
